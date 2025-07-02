@@ -1,6 +1,6 @@
 # 📘 use-confirm-dialog
 
-> A simple, promise-based React confirmation dialog hook — no dependencies, fully accessible, customizable, and easy to use.
+A simple, promise-based React confirmation dialog hook — no dependencies, fully accessible, customizable, and easy to use.
 
 ---
 
