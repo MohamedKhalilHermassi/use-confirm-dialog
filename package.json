@@ -1,10 +1,16 @@
 {
-  "name": "use-confirming-dialog",
+  "name": "use-confirmation-dialog",
   "version": "1.0.0",
   "description": "A promise-based React confirmation dialog hook with no dependencies",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
   "files": [
     "dist"
   ],
@@ -15,13 +21,11 @@
     "dialog",
     "modal"
   ],
-  "author": "MohamedKhalil Hermassi mohamedkhalil.hermassi@esprit.tn",
+  "author": "MohamedKhalil Hermassi <mohamedkhalil.hermassi@esprit.tn>",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=17",
     "react-dom": ">=17"
-  },
-  "dependencies": {
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
@@ -37,13 +41,14 @@
     "vite": "^4.3.9"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/MohamedKhalilHermassi/use-confirm-dialog"
-},
+    "type": "git",
+    "url": "https://github.com/MohamedKhalilHermassi/use-confirm-dialog"
+  },
   "scripts": {
     "build": "tsup",
     "dev": "vite",
     "preview": "vite preview",
     "lint": "eslint ."
-  }
+  },
+  "sideEffects": false
 }

@@ -1,4 +1,4 @@
-# 📘 use-confirming-dialog
+# 📘 use-confirmation-dialog
 
 A simple, promise-based React confirmation dialog hook — no dependencies, fully accessible, customizable, and easy to use.
 
@@ -24,16 +24,16 @@ A simple, promise-based React confirmation dialog hook — no dependencies, full
 ## 🔧 Installation
 
 ```bash
-npm install use-confirming-dialog
+npm install use-confirmation-dialog
 # or
-yarn add use-confirming-dialog
+yarn add use-confirmation-dialog
 ```
 ## 🎲 Usage
 Wrap your app with `ConfirmProvider` once:
 ```bash
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { ConfirmProvider } from 'use-confirming-dialog'
+import { ConfirmProvider } from 'use-confirmation-dialog'
 import App from './App'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -44,7 +44,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 ```
 Then use the useConfirm hook anywhere inside your app:
 ```bash
-import { useConfirm } from 'use-confirming-dialog'
+import { useConfirm } from 'use-confirmation-dialog'
 
 export function DeleteButton() {
   const confirm = useConfirm()
