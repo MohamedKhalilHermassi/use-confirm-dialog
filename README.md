@@ -14,6 +14,13 @@ A simple, promise-based React confirmation dialog hook — no dependencies, full
 
 ---
 
+
+## Screenshots
+
+![App Screenshot](https://github.com/MohamedKhalilHermassi/use-confirm-dialog/blob/main/assets/screenshots/screenshot_1.png)
+
+
+
 ## 🔧 Installation
 
 ```bash
