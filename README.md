@@ -1,10 +1,10 @@
-# use-confirm-dialog
+# 📘 use-confirm-dialog
 
-> A simple, promise-based React confirmation dialog hook — no dependencies, fully accessible, customizable, and easy to use.
+A simple, promise-based React confirmation dialog hook — no dependencies, fully accessible, customizable, and easy to use.
 
 ---
 
-## Features
+## 🌌 Features
 
 - Use like native `window.confirm()`, but better UX and accessibility  
 - Promise-based: easily `await` the user response  
@@ -14,14 +14,14 @@
 
 ---
 
-## Installation
+## 🔧 Installation
 
 ```bash
 npm install use-confirm-dialog
 # or
 yarn add use-confirm-dialog
 ```
-## Usage
+## 🎲 Usage
 Wrap your app with `ConfirmProvider` once:
 ```bash
 import React from 'react'
@@ -64,7 +64,7 @@ export function DeleteButton() {
 
 ```
 
-## API 
+## 👾 API 
 
 | Option | Type     | Default                |Description
 | :-------- | :------- | :------------------------- |:--------|
@@ -74,17 +74,20 @@ export function DeleteButton() {
 |`cancelText`|`string`|`"Cancel"`|Text for cancel button|
 |`confirmColor`|`string`|`#2563eb`|Background color of confirm button (CSS value)|
 
-## License
+## 🔮 Live Demo
+ - [CodeSandBox ](https://codesandbox.io/p/sandbox/drpnm8)
+
+## 📜 License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 © Mohamed Khalil Hermassi
 
-## Contributing
+## 🃏 Contributing
 
 Pull requests and issues are welcome!
 
 
-## Badges
+## 👑 Badges
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
