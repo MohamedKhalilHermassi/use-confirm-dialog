@@ -74,6 +74,9 @@ export function DeleteButton() {
 |`cancelText`|`string`|`"Cancel"`|Text for cancel button|
 |`confirmColor`|`string`|`#2563eb`|Background color of confirm button (CSS value)|
 
+## 🔮 Live Demo
+ - [CodeSandBox ](https://codesandbox.io/p/sandbox/drpnm8)
+
 ## 📜 License
 
 [MIT](https://choosealicense.com/licenses/mit/)
