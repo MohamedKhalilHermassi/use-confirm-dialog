@@ -1,5 +1,5 @@
 {
-  "name": "react-confirm-dialog",
+  "name": "react-confirmation-dialog",
   "version": "1.0.0",
   "description": "A promise-based React confirmation dialog hook with no dependencies",
   "main": "dist/index.cjs.js",
