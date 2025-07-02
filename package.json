@@ -1,0 +1,47 @@
+{
+  "name": "use-confirm-dialog",
+  "version": "1.0.0",
+  "description": "A promise-based React confirmation dialog hook with no dependencies",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "hook",
+    "confirmation",
+    "dialog",
+    "modal"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "dependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.5.2",
+    "eslint": "^9.29.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.2.0",
+    "tsup": "^6.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^4.3.9"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "vite",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  }
+}
