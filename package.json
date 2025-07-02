@@ -15,15 +15,13 @@
     "dialog",
     "modal"
   ],
-  "author": "Your Name",
+  "author": "MohamedKhalil Hermassi mohamedkhalil.hermassi@esprit.tn",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=17",
     "react-dom": ">=17"
   },
   "dependencies": {
-    "react": ">=17",
-    "react-dom": ">=17"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
@@ -38,6 +36,10 @@
     "typescript": "~5.8.3",
     "vite": "^4.3.9"
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/MohamedKhalilHermassi/use-confirm-dialog"
+},
   "scripts": {
     "build": "tsup",
     "dev": "vite",
