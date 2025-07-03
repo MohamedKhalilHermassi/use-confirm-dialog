@@ -14,7 +14,7 @@ const App = () => {
       confirmColor: "#dc2626",
       confirmTextFont: "monospace", // change with the font of your choice
       cancelTextFont: "monospace",
-      dialogTextFont :"monospace"
+      dialogTextFont :"sans-serif"
     })
 
     if (ok) {
