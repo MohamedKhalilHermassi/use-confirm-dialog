@@ -12,6 +12,9 @@ const App = () => {
       confirmText: "Delete",
       cancelText: "Cancel",
       confirmColor: "#dc2626",
+      confirmTextFont: "monospace", // change with the font of your choice
+      cancelTextFont: "monospace",
+      dialogTextFont :"monospace"
     })
 
     if (ok) {
@@ -23,7 +26,7 @@ const App = () => {
 
   return (
     <div style={{ padding: "2rem" }}>
-      <button onClick={handleDelete} style={{ padding: "0.75rem 1.5rem", fontSize: "1rem",fontFamily:'sans-serif' }}>
+      <button onClick={handleDelete} style={{ padding: "0.75rem 1.5rem", fontSize: "1rem" }}>
         Delete File
       </button>
     </div>

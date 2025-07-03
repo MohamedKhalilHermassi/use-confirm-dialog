@@ -8,6 +8,9 @@ type ConfirmOptions = {
   confirmText?: string
   cancelText?: string
   confirmColor?: string
+  confirmTextFont?: string
+  cancelTextFont?: string
+  dialogTextFont?:string
 }
 
 type ConfirmFunction = (options: ConfirmOptions) => Promise<boolean>
@@ -48,7 +51,7 @@ export const ConfirmProvider = ({ children }: { children: ReactNode }) => {
     boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
     maxWidth: "400px",
     width: "90%",
-    fontFamily:"sans-serif"
+    fontFamily:options?.dialogTextFont,
   }
 
   const buttonStyle: React.CSSProperties = {
@@ -64,12 +67,14 @@ export const ConfirmProvider = ({ children }: { children: ReactNode }) => {
     backgroundColor: "#e0e0e0",
     color: "#333",
     marginRight: "0.5rem",
+    fontFamily: options?.cancelTextFont,
   }
 
   const confirmButtonStyle: React.CSSProperties = {
     ...buttonStyle,
     backgroundColor: options?.confirmColor || "#2563eb", // blue default
     color: "white",
+    fontFamily : options?.confirmTextFont,
   }
 
   return (
