@@ -43,20 +43,25 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 )
 ```
 Then use the useConfirm hook anywhere inside your app:
+in this newer version you can add your preffered font to each element in the dialog as shown in the code below:
 ```bash
 import { useConfirm } from 'react-use-confirming-dialog'
 
 export function DeleteButton() {
   const confirm = useConfirm()
 
-  async function handleDelete() {
+  const handleDelete = async () => {
     const ok = await confirm({
-      title: 'Delete this file?',
-      message: 'Are you sure? This action cannot be undone.',
-      confirmText: 'Delete',
-      cancelText: 'Cancel',
-      confirmColor: '#dc2626' // red color
+      title: "Delete file?",
+      message: "Are you sure you want to delete this file? This action cannot be undone.",
+      confirmText: "Delete",
+      cancelText: "Cancel",
+      confirmColor: "#dc2626",
+      confirmTextFont: "monospace", // change with the font of your choice
+      cancelTextFont: "monospace",
+      dialogTextFont :"monospace"
     })
+
 
     if (ok) {
       // deletion logic + dialog closed
