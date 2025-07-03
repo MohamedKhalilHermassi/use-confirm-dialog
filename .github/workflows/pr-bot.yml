@@ -1,3 +1,9 @@
+name: PR Bot
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
 permissions:
   contents: write
   pull-requests: write
